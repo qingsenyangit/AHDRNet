@@ -20,7 +20,7 @@ In IEEE Conference on Compute rVision and Pattern Recognition (CVPR), 2019:1751-
 2. Prepare dataset.
    1) Download dataset.
    2) Move the dataset into `./dataset`. 
-   3) This can be obtained by running the corresponding script in `./matlab_script (To be added)`.
+   3) Processed dataset can be obtained by running the corresponding script in `./matlab_script (To be added)`.
 3. Run `python script_testing.py` files. 
 
 ### Training
