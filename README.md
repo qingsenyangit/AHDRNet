@@ -1,17 +1,17 @@
 # AHDRNet
-<small> Attention-guided Network for Ghost-free High Dynamic Range Imaging
+<small> Attention-guided Network for Ghost-free High Dynamic Range Imaging (AHDR)
 
-Qingsen Yan, Dong Gong, Qinfeng Shi, Anton van den Hengel, Chunhua Shen, Ian Reid, Yanning Zhang. 
-In IEEE Conference on Compute rVision and Pattern Recognition (CVPR), 2019:1751-1760.
-\[[Paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Yan_Attention-Guided_Network_for_Ghost-Free_High_Dynamic_Range_Imaging_CVPR_2019_paper.pdf)\]\[[Project](https://github.com/qingsenyangit/AHDRNet)\]
+Qingsen Yan*, Dong Gong*, Qinfeng Shi, Anton van den Hengel, Chunhua Shen, Ian Reid, Yanning Zhang. 
+In IEEE Conference on Compute rVision and Pattern Recognition (CVPR), 2019:1751-1760. (\* Equall contribution)
+\[[Paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Yan_Attention-Guided_Network_for_Ghost-Free_High_Dynamic_Range_Imaging_CVPR_2019_paper.pdf)\]\[[Project](https://donggong1.github.io/ahdr.html)\]
 
+<img src='imgs/frame.jpg' width=790>  
 
 
 ## Requirements
 + Python 2.7
 + PyTorch 0.3.1 (tested with 0.3.1)
 + MATLAB (for data preparation)
-
 
 
 ## Usage
@@ -24,7 +24,13 @@ In IEEE Conference on Compute rVision and Pattern Recognition (CVPR), 2019:1751-
 3. Run `python script_testing.py` files. 
 
 ### Training
-Training code will be released later. (To be added)
+Training code will be released later. 
+
+### Examples of the Results
+<img src='imgs/fig.jpg' width=420> 
+
+### Examples of the Estimated Attention Maps
+<img src='imgs/att_map.jpg' width=420> 
 
 
 ## Citation
