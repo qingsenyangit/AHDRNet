@@ -15,6 +15,8 @@ In IEEE Conference on Compute rVision and Pattern Recognition (CVPR), 2019:1751-
 
 
 ## Usage
+### Data processing
+
 ### Testing
 1. Install this repository and the required packages. A pretrained model is in `./trained-model`.
 2. Prepare dataset.
