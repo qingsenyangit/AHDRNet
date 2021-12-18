@@ -15,6 +15,10 @@ In IEEE Conference on Compute rVision and Pattern Recognition (CVPR), 2019:1751-
 
 
 ## Usage
+### Data preparation
+1. Download data from \[[dataset](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/)\]
+2. Move the dataset into `./GenerH5Data/TrainingData`. 
+3. Run `./GenerH5Data/PrepareData.m`
 ### Testing
 1. Install this repository and the required packages. A pretrained model is in `./trained-model`.
 2. Prepare dataset.
