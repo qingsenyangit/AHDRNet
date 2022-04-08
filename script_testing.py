@@ -51,7 +51,7 @@ start_step = 0
 # if args.load_model and len(os.listdir(args.trained_model_dir)):
 model = model_load(model, args.trained_model_dir, args.trained_model_filename)
 
-# In the testing, we need test on the whole image, so we defind a new variable
+# In the testing, we test on the whole image, so we defind a new variable
 #  'Image_test_loaders' used to load the whole image
 start = time.time()
 loss = testing_fun(model, testimage_dataset, args)
